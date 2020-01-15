@@ -7,18 +7,142 @@
     <title>Planner</title>
 
     <!-- CSS Reset -->
-    <link rel="stylesheet" href="../code-quiz/css/reset.css">
+    <link rel="stylesheet" href="../planner/css/reset.css">
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="../code-quiz/css/style.css">
+    <link rel="stylesheet" href="../planner/css/style.css">
     
+    <!-- JQuery CDN-->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Link to Moment.js should go here -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
 </head>
 <body>
-
+    <br>
+    <br>
     
+    <div class="container">
+        <h1 class="welcome">Welcome to Day Planner</h1>
+        <h2 class="today"></h2>
+        <hr>
+    </div>
+    
+    <div class="container ">
+        <div>
+            <div class="row">
+              <div class="col-1">9AM</div>
+              <div class="col-sm ">
+                <div class="form-group planner">
+                    <textarea class="form-control nineam" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save1" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">10AM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control tenam" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save2" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">11AM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control elevenam" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save3" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">12PM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control twelepm" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save4" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">1PM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control onepm" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save5" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">2PM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control twopm" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save6" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">3PM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control threepm" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save7" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">4PM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control fourpm" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save8" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-1">5PM</div>
+              <div class="col-sm">
+                <div class="form-group planner">
+                    <textarea class="form-control fivepm" id="exampleFormControlTextarea1" rows="1"></textarea>
+                  </div>
+                </div>
+              <div class="col-1"><img id="save9" width="30" height="30" src="../planner/saveIcon.png" alt="save"></div>
+            </div>
+        </div>
+    
+    </div>
+    <script src="../planner/planner.js"></script>
     
 </body>
 </html>
